@@ -3,9 +3,9 @@ import { v4 as uuidv4} from 'uuid';
 import { UpdateUserDTO } from './dtos/update-user.dto';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { User } from 'src/entities/user.entity';
+import { User } from './entities/user.entity';
 import { CreateUserDTO } from './dtos/create-user.dto';
-import { Profile } from 'src/entities/profile.entity';
+import { Profile } from './entities/profile.entity';
 
 
 @Injectable()
